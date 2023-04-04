@@ -1,0 +1,61 @@
+.row {
+	margin: 0;
+}
+
+.header {
+	width: 100%;
+	display: block;
+	background: #111;
+	color: #fff;
+	padding: 10px 0;
+}
+
+.header .logo {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+.content {
+	width: 96%;
+	max-width: 1280px;
+	min-width: 320px;
+	display: block;
+	margin: 0 auto;
+}
+
+.fl {
+	float: left;
+	text-align: left;
+}
+
+.fr {
+	float: right;
+	text-align: right;
+}
+
+.btn {
+	height: 38px;
+}
+
+.open_window {
+	display: none;
+	width: 300px;
+	padding: 20px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	top: 20%;
+    z-index: 2;
+}
+
+.email_error {
+	color: red;
+}
+
+.form-group label {
+	font-size: 12px;
+}
